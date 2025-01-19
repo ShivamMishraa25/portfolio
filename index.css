@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-image: url(img/bg.jp);
+    background-attachment: fixed;
+}
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.1em;
+    color: white;
+    height: 2rem;
+}
+h1 {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+a {
+    margin: 0.3rem;
+}
