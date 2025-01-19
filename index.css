@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-image: url(img/bg.jpg);
     background-attachment: fixed;
@@ -15,12 +18,16 @@ header {
     padding-top: 0.1em;
     color: white;
     height: 2rem;
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 header img {
     height: 2rem;
     margin-left: 0.5rem;
 }
-a {
+header a {
     margin: 0.3rem;
     text-decoration: none;
     color: deeppink;
@@ -47,12 +54,20 @@ article {
 #name {
     margin: 1rem;
 }
-h1 {
-    color: turquoise;
+#name a {
+    text-decoration: none;
+    color: gold;
+}
+h1, h2 {
+    color: #411d96;
 }
 .bord {
     border: 1px white solid;
     margin: 1rem;
     border-radius: 24px;
     min-height: 100%;
+}
+#about {
+    flex-direction: column;
+    padding: 1rem;
 }
