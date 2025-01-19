@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(img/bg.jp);
+    background-image: url(img/bg.jpg);
     background-attachment: fixed;
 }
 header {
@@ -16,10 +16,43 @@ header {
     color: white;
     height: 2rem;
 }
-h1 {
-    font-size: 1rem;
+header img {
+    height: 2rem;
     margin-left: 0.5rem;
 }
 a {
     margin: 0.3rem;
+    text-decoration: none;
+    color: deeppink;
+}
+nav {
+    margin-right: 0.3rem;
+}
+article {
+    display: flex;
+    justify-content: space-between;
+    margin: 1px;
+    background-color: white;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    min-height: 100%;
+}
+.dp img {
+    width: 10rem;
+    margin: 1rem 0 1rem 1rem;
+    border-radius: 50%;
+    border: 10px deeppink solid;
+}
+#name {
+    margin: 1rem;
+}
+h1 {
+    color: turquoise;
+}
+.bord {
+    border: 1px white solid;
+    margin: 1rem;
+    border-radius: 24px;
+    min-height: 100%;
 }
