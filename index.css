@@ -96,7 +96,7 @@ h1, h2 {
 }
 #skills>.h2 {
     border: 1px solid red;
-    margin: 0 35%;
+    margin: 0 30%;
     text-align: left;
 }
 .skill h3 {
