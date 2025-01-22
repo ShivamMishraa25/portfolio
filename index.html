@@ -1,78 +1,136 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <header>
-        <logo class="name">
-            <a href="/"><img src="img/shiv.png"></a>
-        </logo>
-        <nav class="navs">
-            <a href="#contact">contact</a>
-            <a href="#services">services</a>
-            <a href="#about">about</a>
-        </nav>
+        <div class="profile-container">
+            <img src="./img/port.png" alt="Profile Photo" class="profile-photo">
+            <h1 class="name">Shivam Mishra</h1>
+            <p class="tagline">Web Developer | Designer | Software Developer</p>
+        </div>
     </header>
-    
-    <main>
-        <div class=bord>
-        <article id="home">
-            <div class="imageborder">
-            <figure class="dp">
-                <img src="img/pic.png">
-            </figure>
-            </div>
-            <div id="name">
-                <h1>Shivam Mishra</h1><br>
-                <p>I'm a passionate Full Stack Developer in training with a strong foundation in computer science and a knack for creating efficient, user-friendly solutions. I graduated from Sam Higginbottom University in 2022 and have been expanding my expertise in web development through focused learning and practical projects. <a href="#about">read more</a></p>
-            </div>
-        </article>
-        </div>
-        
-        <div class="bord">
-        <article id="about">
-            <h2>About Me</h2>
-            <p><strong>Education: </strong>I'm an enthusiastic Full Stack Developer in training with a strong passion for building user-friendly and responsive web applications. I hold a degree in Computer Science from Sam Higginbottom University, where I graduated in 2022. Since then, I've been dedicated to honing my skills in web development, combining creativity with technical expertise.</p><br/>
-            <p><strong>Goals: </strong>Currently, I’m diving deep into modern technologies like HTML, CSS, and frameworks like TailwindCSS, while also learning advanced concepts in JavaScript and Full Stack Development. My goal is to create impactful solutions that make a difference.</p><br/>
-            <p><strong>Currently: </strong>Beyond coding, I enjoy exploring new tech trends, experimenting with creative projects, and finding innovative ways to solve problems. I believe in lifelong learning and strive to improve with every challenge I take on.</p>
-        </article>
-        </div>
-        
-        <div class="bord">
-        <article id="skills">
-            <div class="h2">
-            <h2>My Skills</h2>
-            </div>
-            <div class="skill">
-                <img src="img/95.png">
-                <h3>HTML</h3>
-            </div>
-            <div class="skill">
-                <img src="img/75.png">
-                <h3>CSS</h3>
-            </div>
-            <div class="skill">
-                <img src="img/50.png">
-                <h3>Tailwind</h3>
-            </div>
-            <div class="skill">
-                <img src="img/30.png">
-                <h3>Javascript</h3>
-            </div>
-        </article>
-        </div>
-        
-        <div class="bord">
-        <article>
-            
-        </article>
-        </div>
-</body>
 
-</html>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate web developer with over a year of experience in designing and building responsive, user-friendly websites and applications.
+                My expertise spans front-end technologies like HTML, CSS, and JavaScript, as well as back-end technologies like PHP and SQL.
+            </p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h3>E-Commerce Platform</h3>
+                    <p>An e-commerce platform with features like user authentication, product listings, and payment integrations.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive personal portfolio showcasing projects, skills, and contact information.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Task Management App</h3>
+                    <p>A web app to organize and manage daily tasks with a drag-and-drop interface.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Weather Dashboard</h3>
+                    <p>A real-time weather dashboard that provides forecasts and weather conditions based on location.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Blog Platform</h3>
+                    <p>A blog platform with features like post creation, editing, and commenting for users.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>Git</li>
+                <li>SQL</li>
+                <li>MongoDB</li>
+            </ul>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <div>
+                <h3>Internshala's Full Stack Development Course</h3>
+                <p>Jan 2025 - Present</p>
+                <p>
+                    Designed and implemented responsive websites, learn web technologies .
+                    Collaborated with pgc team to understand industrial requirements and client requests.
+                </p>
+
+                <h3>Head Web Developer for All India Satrangi Salaam Association</h3>
+                <p>Sept 2024 - Dec 2024</p>
+                <p>
+                    Lead in the development of user-friendly interfaces for NGO's websites.
+                    Designed and Developed to bring their vision to life through clean and efficient code.
+                </p>
+                
+                <h3>Web Development Course</h3>
+                <p>Oct 2024 - Dec 2024</p>
+                <p>
+                    Developed multiple user-friendly website and webpages.
+                    Developed an e-commerce website PG-Life from scratch using HTML, CSS, Javascript, React, MySQL, React and PHP.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+          <h2>Contact</h2>
+          <form id="contact-form">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+      
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+      
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+      
+              <button type="submit">Send</button>
+          </form>
+      
+          <div class="cv-section">
+              <h3>Upload or Download CV</h3>
+              <input type="file" id="upload-cv" accept=".pdf,.doc,.docx" hidden>
+              <button id="upload-button">Upload CV</button>
+              <button id="download-button" disabled>Download CV</button>
+          </div>
+      </section>
+      
+      
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Shivam Mishra. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
