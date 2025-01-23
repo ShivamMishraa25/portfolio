@@ -115,7 +115,11 @@
 <!-- Contacts Section -->
         <section id="contact" class="section">
           <h2>Contact</h2>
-          <form id="contact-form">
+          <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+              
+              <!-- Access Key to Get notified on Gmail-->
+              <input type="hidden" name="access_key" value="79bf0b36-06d1-44cc-a20c-e1aace175be3">
+              
               <label for="name">Name</label>
               <input type="text" id="name" name="name" required>
       
@@ -159,4 +163,4 @@
 <!-- Javascript -->
     <script src="script.js"></script>
 </body>
-</html> 
+</html>
